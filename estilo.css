@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', 'Tahoma', sans-serif;
+}
+
+body {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #000;
+}
+
+/* Bloco de conteúdo */
+.container {
+    text-align: center;
+    border-top: 1px solid #00f0ff;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 12px;
+    border: 1px solid #00bcd4;
+}
+
+/* Tipografia com efeito glow */
+h1, h2, h3, p {
+    margin: 15px 0;
+    color: #ffffff;
+    text-shadow:
+        0 0 1px #ffffff,
+        0 0 3px #00bcd4;
+}
+
+p {
+    line-height: 28px;
+    margin: 15px auto 30px auto;
+    max-width: 930px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Imagens */
+img {
+    width: 190px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+/* Botões */
+a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #00bcd4;
+    color: #000000;
+    border-radius: 25px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow:
+        0 0 5px #00bcd4,
+        0 0 10px #00bcd4;
+}
+
+a:hover {
+    background-color: #00a6ba;
+    box-shadow:
+        0 0 8px #00bcd4,
+        0 0 15px #00bcd4;
+}
